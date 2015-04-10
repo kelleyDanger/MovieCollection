@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/emptyTextView"
+    android:padding="8dp"
+    android:textSize="30sp"
+    android:text="@string/no_movies"
+    android:textColor="@color/red_shade_3"
+    android:minHeight="?android:listPreferredItemHeight"
+    android:gravity="center_vertical|center_horizontal"
+    android:background="@android:color/black">
+
+</TextView>

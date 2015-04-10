@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@android:color/black">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:color="@android:color/white"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:background="@android:color/black">
+
+        <EditText
+            android:id="@+id/titleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_title"
+            android:imeOptions="actionNext"
+            android:inputType="textCapWords"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/tertiary_text_light">
+        </EditText>
+
+        <EditText
+            android:id="@+id/yearEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_year"
+            android:imeOptions="actionNext"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/tertiary_text_light"
+            android:inputType="date">
+        </EditText>
+        <EditText android:id="@+id/directorEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext" android:hint="@string/hint_director"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/tertiary_text_light"
+            android:inputType="textCapWords|textPersonName">
+        </EditText>
+
+        <EditText android:id="@+id/ratingEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext" android:hint="@string/hint_rating"
+            android:inputType="numberDecimal"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/tertiary_text_light">
+        </EditText>
+        <EditText android:id="@+id/viewsEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone" android:hint="@string/hint_views"
+            android:inputType="number"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/tertiary_text_light">
+        </EditText>
+
+        <EditText
+            android:id="@+id/notesEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:hint="@string/hint_notes"
+            android:inputType="textCapSentences|textLongMessage"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/tertiary_text_light" />
+
+        <Button android:id="@+id/saveMovieButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/button_save_movie"
+            android:background="@color/hunter_green"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</ScrollView>

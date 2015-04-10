@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:layout_weight="1"
+    android:background="@android:color/black">
+    <TableLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:color="@android:color/white"
+        android:stretchColumns="1" android:layout_margin="5dp">
+        <TableRow android:id="@+id/titleTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/titleLabelTextView"
+                style="@style/MovieLabelTextView"
+                android:text="@string/label_title" />
+            <TextView android:id="@+id/titleTextView"
+                style="@style/MovieTextView"
+                android:layout_width="wrap_content"  />
+        </TableRow>
+
+        <TableRow android:id="@+id/yearTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/yearLabelTextView"
+                style="@style/MovieLabelTextView"
+                android:text="@string/label_year" />
+            <TextView android:id="@+id/yearTextView"
+                style="@style/MovieTextView"
+                android:layout_width="wrap_content" />
+        </TableRow>
+
+        <TableRow android:id="@+id/directorTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/directorLabelTextView"
+                style="@style/MovieLabelTextView"
+                android:text="@string/label_director" />
+            <TextView android:id="@+id/directorTextView"
+                style="@style/MovieTextView"
+                android:layout_width="wrap_content" />
+        </TableRow>
+
+        <TableRow android:id="@+id/ratingTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/ratingLabelTextView"
+                style="@style/MovieLabelTextView"
+                android:text="@string/label_rating" />
+            <TextView android:id="@+id/ratingTextView"
+                style="@style/MovieTextView"
+                android:layout_width="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/viewsTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView android:id="@+id/viewsLabelTextView"
+                style="@style/MovieLabelTextView"
+                android:text="@string/label_views" />
+            <TextView android:id="@+id/viewsTextView"
+                style="@style/MovieTextView"
+                android:layout_width="wrap_content" />
+        </TableRow>
+
+        <TableRow android:id="@+id/notesTableRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/notesLabelTextView"
+                style="@style/MovieLabelTextView"
+                android:text="@string/label_notes" />
+            <TextView android:id="@+id/notesTextView"
+                style="@style/MovieTextView"
+                android:layout_width="wrap_content" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>

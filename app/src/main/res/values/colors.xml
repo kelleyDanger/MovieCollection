@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="wine_red" type="color">#400707</item>
+    <item name="red_shade_2" type="color">#450003</item>
+    <item name="red_shade_3" type="color">#5C0002</item>
+    <item name="red_shade_4" type="color">#94090D</item>
+    <item name="blood_red" type="color">#B9121B</item>
+    <item name="red_shade_5" type="color">#D40D12</item>
+    <item name="red_shade_6" type="color">#FF1D23</item>
+
+    <item name="burnt_gold" type="color">#AE6C18</item>
+
+
+    <item name="pea_soup" type="color">#BFB169</item>
+    <item name="seafoam_green" type="color">#8DB87A</item>
+    <item name="moss_green" type="color">#45593C</item>
+    <item name="hunter_green" type="color">#2B3825</item>
+    <item name="swamp_green" type="color">#201C13</item>
+
+
+
+    <item name="eggshell_white" type="color">#FCFAE1</item>
+    <item name="tan_white" type="color">#F7EDEA</item>
+    <item name="blue_white" type="color">#F2F2F2</item>
+
+    <item name="tan" type="color">#B89E81</item>
+    <item name="brown_grey" type="color">#453B31</item>
+
+    <item name="wolf_grey" type="color">#999999</item>
+    <item name="storm_grey" type="color">#555555</item>
+    <item name="green_grey" type="color">#37332B</item>
+
+
+
+</resources>
